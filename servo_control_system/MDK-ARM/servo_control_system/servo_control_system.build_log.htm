@@ -1,0 +1,133 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.16a
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: YYD mm, YYD, LIC=W96Z9-4ZNEY-EYTVT-R559U-HRE7D-6WXKX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.16a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 (build 20)
+Assembler:       Armasm.exe V5.06 (build 20)
+Linker/Locator:  ArmLink.exe V5.06 (build 20)
+Library Manager: ArmAr.exe V5.06 (build 20)
+Hex Converter:   FromElf.exe V5.06 (build 20)
+CPU DLL:         SARMCM3.DLL V5.16a
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.2
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+D:\¶æ»ú°å\rudder\servo_control_system\MDK-ARM\servo_control_system.uvprojx
+Project File Date:  07/07/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 (build 20)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'servo_control_system'
+compiling front_breaking.c...
+..\Src\main\front_breaking.c(106): warning:  #177-D: variable "j" was declared but never referenced
+      u16 i, j;
+..\Src\main\front_breaking.c(258): warning:  #177-D: variable "mask" was declared but never referenced
+  	U8 mask,i, bData,k;
+..\Src\main\front_breaking.c(258): warning:  #550-D: variable "k" was set but never used
+  	U8 mask,i, bData,k;
+..\Src\main\front_breaking.c(260): warning:  #177-D: variable "i2caddr" was declared but never referenced
+  	U8 i2caddr;
+..\Src\main\front_breaking.c(300): warning:  #177-D: variable "count" was declared but never referenced
+  	kal_uint16 count=0;
+..\Src\main\front_breaking.c(280): warning:  #177-D: function "AW9106_SDA_Change" was declared but never referenced
+  static void AW9106_SDA_Change(void) 
+..\Src\main\front_breaking.c(297): warning:  #177-D: function "AW9106_POWER_ON" was declared but never referenced
+  static void AW9106_POWER_ON(void)
+..\Src\main\front_breaking.c(308): warning:  #550-D: variable "showResult" was set but never used
+  static u8 showResult[10] = {0};
+..\Src\main\front_breaking.c(310): warning:  #177-D: function "AW9106_test" was declared but never referenced
+  static void AW9106_test(void)
+..\Src\main\front_breaking.c(339): warning:  #177-D: function "AW9106_OnOff" was declared but never referenced
+  static void AW9106_OnOff(BOOL OnOff)  //AW9106??????????,????????
+..\Src\main\front_breaking.c(370): warning:  #177-D: function "AW9106_AllOn" was declared but never referenced
+  static void AW9106_AllOn(void)
+..\Src\main\front_breaking.c(387): warning:  #177-D: function "AW9106_out0_fade" was declared but never referenced
+  static void AW9106_out0_fade(void)
+..\Src\main\front_breaking.c(407): warning:  #177-D: function "AW9106_init_pattern" was declared but never referenced
+  static void AW9106_init_pattern(void) 
+..\Src\main\front_breaking.c(488): warning:  #177-D: function "AW9106_Paoma" was declared but never referenced
+  static void AW9106_Paoma(void)
+..\Src\main\front_breaking.c(503): warning:  #177-D: function "AW9106_ComeCall" was declared but never referenced
+  static void AW9106_ComeCall(void)
+..\Src\main\front_breaking.c(522): warning:  #177-D: function "AW9106_MissCall" was declared but never referenced
+  static void AW9106_MissCall(void)
+..\Src\main\front_breaking.c(542): warning:  #177-D: function "AW9106_ComeMsg" was declared but never referenced
+  static void AW9106_ComeMsg(void)
+..\Src\main\front_breaking.c(562): warning:  #177-D: function "AW9106_MissMsg" was declared but never referenced
+  static void AW9106_MissMsg (void)
+..\Src\main\front_breaking.c(581): warning:  #177-D: function "AW9106_GPIO_LED" was declared but never referenced
+  static void AW9106_GPIO_LED(void)
+..\Src\main\front_breaking.c: 19 warnings, 0 errors
+compiling right_breaking.c...
+..\Src\main\right_breaking.c(106): warning:  #177-D: variable "j" was declared but never referenced
+      u16 i, j;
+..\Src\main\right_breaking.c(258): warning:  #177-D: variable "mask" was declared but never referenced
+  	U8 mask,i, bData,k;
+..\Src\main\right_breaking.c(258): warning:  #550-D: variable "k" was set but never used
+  	U8 mask,i, bData,k;
+..\Src\main\right_breaking.c(260): warning:  #177-D: variable "i2caddr" was declared but never referenced
+  	U8 i2caddr;
+..\Src\main\right_breaking.c(300): warning:  #177-D: variable "count" was declared but never referenced
+  	kal_uint16 count=0;
+..\Src\main\right_breaking.c(280): warning:  #177-D: function "AW9106_SDA_Change" was declared but never referenced
+  static void AW9106_SDA_Change(void) 
+..\Src\main\right_breaking.c(297): warning:  #177-D: function "AW9106_POWER_ON" was declared but never referenced
+  static void AW9106_POWER_ON(void)
+..\Src\main\right_breaking.c(308): warning:  #550-D: variable "showResult" was set but never used
+  static u8 showResult[10] = {0};
+..\Src\main\right_breaking.c(310): warning:  #177-D: function "AW9106_test" was declared but never referenced
+  static void AW9106_test(void)
+..\Src\main\right_breaking.c(339): warning:  #177-D: function "AW9106_OnOff" was declared but never referenced
+  static void AW9106_OnOff(BOOL OnOff)  //AW9106??????????,????????
+..\Src\main\right_breaking.c(370): warning:  #177-D: function "AW9106_AllOn" was declared but never referenced
+  static void AW9106_AllOn(void)
+..\Src\main\right_breaking.c(387): warning:  #177-D: function "AW9106_out0_fade" was declared but never referenced
+  static void AW9106_out0_fade(void)
+..\Src\main\right_breaking.c(407): warning:  #177-D: function "AW9106_init_pattern" was declared but never referenced
+  static void AW9106_init_pattern(void) 
+..\Src\main\right_breaking.c(488): warning:  #177-D: function "AW9106_Paoma" was declared but never referenced
+  static void AW9106_Paoma(void)
+..\Src\main\right_breaking.c(503): warning:  #177-D: function "AW9106_ComeCall" was declared but never referenced
+  static void AW9106_ComeCall(void)
+..\Src\main\right_breaking.c(522): warning:  #177-D: function "AW9106_MissCall" was declared but never referenced
+  static void AW9106_MissCall(void)
+..\Src\main\right_breaking.c(542): warning:  #177-D: function "AW9106_ComeMsg" was declared but never referenced
+  static void AW9106_ComeMsg(void)
+..\Src\main\right_breaking.c(562): warning:  #177-D: function "AW9106_MissMsg" was declared but never referenced
+  static void AW9106_MissMsg (void)
+..\Src\main\right_breaking.c(581): warning:  #177-D: function "AW9106_GPIO_LED" was declared but never referenced
+  static void AW9106_GPIO_LED(void)
+..\Src\main\right_breaking.c: 19 warnings, 0 errors
+linking...
+Program Size: Code=22776 RO-data=460 RW-data=248 ZI-data=2680  
+"servo_control_system\servo_control_system.axf" - 0 Error(s), 38 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\¶æ»ú°å\rudder\servo_control_system\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
